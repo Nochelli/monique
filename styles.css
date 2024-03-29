@@ -164,8 +164,9 @@ align-items: center;
         
     }
     .dance video {
-        max-width: 70%; 
+        max-width: 60%; 
         border-radius: 50%; 
+
     }
     
     .texto {
