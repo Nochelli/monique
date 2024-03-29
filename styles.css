@@ -1,0 +1,182 @@
+body {
+    background-image: url('fundo2.jpg');
+    margin: 0px;
+    border: 0px;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 255, 0, 0.648);
+
+
+}
+
+/* hidden and show*/
+
+.love {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+    }
+    
+    .hidden-left {
+        opacity: 0;
+        filter: blur(15px);
+        transform: translateX(-100%);
+        transition: all 2s;
+        
+    }
+    
+    .hidden-right {
+        opacity: 0;
+        filter: blur(15px);
+        transform: translateX(-100%);
+        transition: all 2s;
+    }
+    
+    .show {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+        transition: all 2s;
+    }
+    
+    
+.Giovannetti {height: 220px; border-radius: 10px;}
+
+.think {height: 90px;}
+
+.smile {height: 90px;}
+
+.poem {height: 320px; border-radius: 10px;}
+
+.date {height: 220px; border-radius: 10px;}
+
+
+
+
+.text{ 
+    background-image: url('text1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+        background-size: 500px;
+        color: #ffffff;
+        text-align: center; 
+        font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+     font-family: montserrat;
+     text-shadow: 1px 2px 2px rgb(43, 132, 9);
+     padding: 200px;
+    
+    }
+
+.surpesa{height: 230px; border-radius: 10px;}
+.apoio{height: 250px; border-radius: 10px;}
+.quadro{height: 300px; border-radius: 10px;}
+.trip {height: 290px; border-radius: 10px;}
+.duck {height: 250px; border-radius: 10px;}
+
+.image {
+    height: auto;
+    width: 22%;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.dance video {
+    max-width: 40%; 
+    border-radius: 50%; 
+}
+
+.texto {
+    flex: 1; 
+    padding-left: 90px; 
+    font-size: medium;
+}
+
+
+/* slide */
+.carousel {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.carousel-container {
+    display: flex;
+    transition: transform 1s ease;
+}
+.slide {
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: 50%;
+    border-radius: 20px;
+
+}
+/* slide */
+
+.semaforo{
+width: 20%;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+
+
+
+/* Responsive for smartphone */
+@media screen and (max-width: 500px){
+.text{    padding: 10px;
+          line-height: 1.5;
+          font-size: 16px;
+          background-size: cover;}
+
+
+.carousel {
+    width: 90%;}
+
+    .image {
+        height: 230px;
+        width: 29%;
+        
+    }
+    .dance video {
+        max-width: 70%; 
+        border-radius: 50%; 
+    }
+    
+    .texto {
+        flex: 1; 
+        padding-left: 20px; 
+        font-size: x-small;
+    }
+    .semaforo{
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        }
+
+}
