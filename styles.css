@@ -1,5 +1,5 @@
 body {
-    background-image: url('fundo2.jpg');
+    background-image: url('fundo.jpg');
     margin: 0px;
     border: 0px;
     font-size: 17px;
@@ -97,12 +97,14 @@ body {
 .dance video {
     max-width: 40%; 
     border-radius: 50%; 
+    margin-right: 300px;
+
 }
 
 .texto {
     flex: 1; 
     padding-left: 90px; 
-    font-size: medium;
+    font-size: large;
 }
 
 
@@ -166,13 +168,13 @@ align-items: center;
     .dance video {
         max-width: 60%; 
         border-radius: 50%; 
-
+        margin-right: 0%
     }
     
     .texto {
         flex: 1; 
-        padding-left: 20px; 
-        font-size: x-small;
+        padding-left: 80px; 
+        font-size: small;
     }
     .semaforo{
         width: 40%;
