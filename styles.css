@@ -44,10 +44,20 @@ body {
         transform: translateX(0);
         transition: all 2s;
     }
+
+
+@keyframes flutuar {
+        0% {
+            top: 0
+        }
     
+        100% {
+            top: 30px
+        }
+    
+    }
     
 .Giovannetti {height: 220px; border-radius: 10px; box-shadow: 2px 2px 50px #f9f9f9ee;}
-
 
 .think {height: 90px; box-shadow: 2px 2px 50px #f9f9f9ee;}
 
@@ -76,11 +86,11 @@ body {
     
     }
 
-.surpesa{height: 230px; border-radius: 10px; box-shadow: 2px 2px 50px #f9f9f9ee;}
-.apoio{height: 250px; border-radius: 10px; box-shadow: 2px 2px 50px #f9f9f9ee;}
-.quadro{height: 300px; border-radius: 10px; box-shadow: 2px 2px 50px #f9f9f9ee;}
-.trip {height: 290px; border-radius: 10px; box-shadow: 2px 2px 50px #f9f9f9ee;}
-.duck {height: 250px; border-radius: 10px; box-shadow: 2px 2px 50px #f9f9f9ee;}
+.surpesa{position: relative;animation: flutuar 2s ease-in-out infinite alternate; height: 230px; border-radius: 10px; box-shadow: 2px 2px 50px #f9f9f9ee;}
+.apoio{position: relative;animation: flutuar 2s ease-in-out infinite alternate;height: 250px; border-radius: 10px; box-shadow: 2px 2px 50px #f9f9f9ee;}
+.quadro{position: relative;animation: flutuar 2s ease-in-out infinite alternate;height: 300px; border-radius: 10px; box-shadow: 2px 2px 50px #f9f9f9ee;}
+.trip {position: relative;animation: flutuar 2s ease-in-out infinite alternate;height: 290px; border-radius: 10px; box-shadow: 2px 2px 50px #f9f9f9ee;}
+.duck {position: relative;animation: flutuar 2s ease-in-out infinite alternate;height: 250px; border-radius: 10px; box-shadow: 2px 2px 50px #f9f9f9ee;}
 
 .image {
     height: auto;
