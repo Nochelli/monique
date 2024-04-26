@@ -7,7 +7,7 @@ body {
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 2px rgba(255, 252, 252, 0.597);
+    text-shadow: 1px 1px 2px rgba(255, 252, 252, 0.29);
 
 
 }
@@ -22,7 +22,16 @@ body {
     
 
     }
-    
+
+.title{
+
+margin-top: 30px;   
+font-size: 28px;
+text-shadow: none;
+
+}
+
+
     .hidden-left {
         opacity: 0;
         filter: blur(15px);
